@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastering English Questions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0A192F;
+            color: #E2E8F0;
+            line-height: 1.6;
+        }
+        .gradient-text-title {
+            background: linear-gradient(90deg, #FF3300, #FFFFCC, #00CCCC, #FF00FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .gradient-text-1 {
+            background: linear-gradient(90deg, #FFFFCC, #00CCCC);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .gradient-text-2 {
+            background: linear-gradient(90deg, #FF3300, #00CCCC);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .gradient-text-3 {
+            background: linear-gradient(90deg, #FF00FF, #FFFFCC);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .lesson-card {
+            background-color: #112240;
+            border-radius: 1rem;
+            padding: 2.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1-px rgba(0, 0, 0, 0.06);
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+        .btn-orange {
+            background-color: #FF3300;
+            color: white;
+        }
+        .btn-magenta {
+            background-color: #FF00FF;
+            color: white;
+        }
+        @keyframes pulse-once {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.05); opacity: 0.8; }
+        }
+        .animate-pulse-once {
+            animation: pulse-once 1.5s ease-in-out infinite;
+        }
+        .word-button {
+            background-color: #4A5568;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: transform 0.2s ease, background-color 0.2s ease;
+            margin: 0.25rem;
+        }
+        .word-button:hover {
+            transform: translateY(-2px);
+            background-color: #718096;
+        }
+        .word-button.correct {
+            background-color: #10B981;
+        }
+        .word-button.incorrect {
+            background-color: #EF4444;
+        }
+        .sentence-container {
+            min-height: 3rem;
+            background-color: #1A202C;
+            border: 2px dashed #4A5568;
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+    </style>
+</head>
+<body class="p-6">
+    <div class="max-w-4xl mx-auto space-y-12">
+        <header class="text-center mb-10">
+            <h1 class="text-5xl md:text-6xl font-extrabold leading-tight">
+                <span class="gradient-text-title">Your Journey to Asking Questions in English</span>
+            </h1>
+            <p class="mt-4 text-lg text-slate-400">
+                This is your special mission, designed just for you. Let's make English simple and powerful.
+            </p>
+            <p class="mt-2 text-lg text-slate-300">
+                Olá, brasileiros! Esta lição é feita especialmente para você, com amor e carinho. Vamos aprender juntos!
+            </p>
+        </header>
+
+        <!-- Common Mistake Section with Bilingual Dialogue -->
+        <section class="lesson-card space-y-6">
+            <h2 class="text-3xl font-bold"><span class="gradient-text-1">Um Erro Comum Que Precisamos Evitar!</span></h2>
+            
+            <div class="bg-red-900 bg-opacity-30 p-4 rounded-lg border border-red-800">
+                <p class="font-bold text-red-400">❌ Errado: I want to <span class="font-bold">do</span> a question.</p>
+                <p class="font-bold text-green-400">✅ Certo: I want to <span class="font-bold">ask</span> a question.</p>
+            </div>
+
+            <p class="text-slate-300 font-bold">Para Brasileiros:</p>
+            <div class="text-slate-300 pl-4 border-l-4 border-yellow-400 italic">
+                <p>Gente, eu sei que no Brasil a gente diz "fazer uma pergunta". É a forma como falamos, é natural. Mas em inglês, a gente não pode traduzir isso diretamente. Por quê? Deixa o meu amigo americano explicar!</p>
+            </div>
+            
+            <p class="text-slate-300 font-bold">Perspectiva do Nativo de Inglês:</p>
+            <div class="text-slate-300 pl-4 border-l-4 border-blue-400 italic">
+                <p>That's a great point! In English, we think about questions differently. We don't 'make' or 'do' them. We **ask** them. Here's why:</p>
+                <ul class="list-disc pl-6 mt-2 space-y-2">
+                    <li>A question is something you **ask for**, like a favor or some information. You 'ask' a friend to help you, so you 'ask' a question.</li>
+                    <li>The verb **'do'** is for actions you physically perform, like 'do the dishes' or 'do homework'. It's for executing a task.</li>
+                </ul>
+                <p class="font-bold text-[#FFFFCC] not-italic mt-4">Em português, pense assim: 'do' é para ações que você executa. 'Ask' é para 'pedir' ou 'solicitar' algo, como uma pergunta.</p>
+            </div>
+        </section>
+
+        <!-- SECTION 1: THE "TO BE" VERB -->
+        <section class="lesson-card space-y-6">
+            <h2 class="text-3xl font-bold"><span class="gradient-text-1">Step 1: The 'to be' Verb (Ser/Estar)</span></h2>
+            <p class="text-slate-300">
+                In Portuguese, when you ask a question like "Você é professor?", you just add a question mark. But in English, we change the order! The 'to be' verb (am, is, are) moves to the front, like a little leader.
+            </p>
+            <p class="text-slate-300">
+                Em português, quando você faz uma pergunta com o verbo ser ou estar, é só colocar o ponto de interrogação no final. Em inglês, a regra é diferente! O verbo 'to be' (am, is, are) vai para o início da frase (não usamos 'do').
+            </p>
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700">
+                <p class="font-bold text-lg text-[#FFFFCC]">
+                    The Simple Rule: Verb to be + Subject + ...?
+                </p>
+                <div class="mt-4">
+                    <h4 class="text-lg font-bold text-[#00CCCC]">Step-by-Step Instructions</h4>
+                    <ol class="list-decimal list-inside pl-4 mt-2 space-y-2 text-slate-300">
+                        <li>Start with the verb **'to be'** (am, is, or are).</li>
+                        <li>Add the **subject** (I, you, he, she, it, we, they).</li>
+                        <li>Finish the sentence with the rest of the words and a question mark.</li>
+                    </ol>
+                    <p class="font-bold text-lg text-[#FF3300] mt-4">Don't!</p>
+                    <ul class="list-disc list-inside pl-4 mt-2 text-slate-300">
+                        <li>**Don't** use 'do' or 'does' with the verb 'to be'. They are never used together.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-2 my-6">
+                <button onclick="toggleExplanation('ptExplanation1', this)" class="btn btn-magenta flex items-center">
+                    Ver explicação em português
+                    <svg class="ml-2 w-4 h-4 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+            
+            <div id="ptExplanation1" class="hidden transition-all duration-300 lesson-card mt-0 border-t-0 rounded-t-none">
+                <h4 class="text-lg font-bold text-[#00CCCC] mb-4">Explicação Detalhada em Português: Verbo 'to be'</h4>
+                <p class="text-slate-300 mb-4">
+                    Quando uma frase em português usa o verbo "ser" ou "estar" para fazer uma pergunta, como em "Ela é sua amiga?", em inglês a gente simplesmente troca a ordem das palavras. O verbo "to be" (am, is, are) vem na frente, o sujeito (she) no meio, e o resto da frase no final.
+                </p>
+                <p class="font-bold text-[#FFFFCC] mb-2">Exemplo:</p>
+                <p class="text-slate-300"><span class="text-[#00CCCC]">Frase Normal:</span> She <span class="font-bold">is</span> happy. (Ela está feliz.)</p>
+                <p class="text-slate-300"><span class="text-[#FF00FF]">Fazendo a Pergunta:</span> <span class="font-bold">Is</span> she happy? (Ela está feliz?)</p>
+            </div>
+
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700">
+                <h3 class="text-2xl font-bold mb-4 text-[#FFFFCC]">Verb 'to be' Conjugation</h3>
+                <p class="text-slate-300 mb-4">Here is a quick reference for the verb 'to be' in the present and past tenses.</p>
+                <div class="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8">
+                    <!-- Present Tense Cards -->
+                    <div class="flex-1">
+                        <h4 class="text-xl font-bold text-[#00CCCC] mb-2">Present Tense</h4>
+                        <div class="space-y-2">
+                            <div class="bg-slate-800 rounded-lg p-4 flex justify-between items-center transition-transform hover:scale-105 hover:bg-slate-700 duration-300">
+                                <span class="text-slate-300 w-1/3">I</span>
+                                <span class="text-white font-bold w-1/3 text-center">am</span>
+                                <span class="text-slate-400 w-1/3 text-right">sou / estou</span>
+                            </div>
+                            <div class="bg-slate-800 rounded-lg p-4 flex justify-between items-center transition-transform hover:scale-105 hover:bg-slate-700 duration-300">
+                                <span class="text-slate-300 w-1/3">You</span>
+                                <span class="text-white font-bold w-1/3 text-center">are</span>
+                                <span class="text-slate-400 w-1/3 text-right">é / está</span>
+                            </div>
+                            <div class="bg-slate-800 rounded-lg p-4 flex justify-between items-center transition-transform hover:scale-105 hover:bg-slate-700 duration-300">
+                                <span class="text-slate-300 w-1/3">He / She / It</span>
+                                <span class="text-white font-bold w-1/3 text-center">is</span>
+                                <span class="text-slate-400 w-1/3 text-right">é / está</span>
+                            </div>
+                            <div class="bg-slate-800 rounded-lg p-4 flex justify-between items-center transition-transform hover:scale-105 hover:bg-slate-700 duration-300">
+                                <span class="text-slate-300 w-1/3">We</span>
+                                <span class="text-white font-bold w-1/3 text-center">are</span>
+                                <span class="text-slate-400 w-1/3 text-right">somos / estamos</span>
+                            </div>
+                            <div class="bg-slate-800 rounded-lg p-4 flex justify-between items-center transition-transform hover:scale-105 hover:bg-slate-700 duration-300">
+                                <span class="text-slate-300 w-1/3">They</span>
+                                <span class="text-white font-bold w-1/3 text-center">are</span>
+                                <span class="text-slate-400 w-1/3 text-right">são / estão</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Past Tense Cards -->
+                    <div class="flex-1">
+                        <h4 class="text-xl font-bold text-[#00CCCC] mb-2">Past Tense</h4>
+                        <div class="space-y-2">
+                            <div class="bg-slate-800 rounded-lg p-4 flex justify-between items-center transition-transform hover:scale-105 hover:bg-slate-700 duration-300">
+                                <span class="text-slate-300 w-1/3">I</span>
+                                <span class="text-white font-bold w-1/3 text-center">was</span>
+                                <span class="text-slate-400 w-1/3 text-right">fui / estava</span>
+                            </div>
+                            <div class="bg-slate-800 rounded-lg p-4 flex justify-between items-center transition-transform hover:scale-105 hover:bg-slate-700 duration-300">
+                                <span class="text-slate-300 w-1/3">You</span>
+                                <span class="text-white font-bold w-1/3 text-center">were</span>
+                                <span class="text-slate-400 w-1/3 text-right">foi / estava</span>
+                            </div>
+                            <div class="bg-slate-800 rounded-lg p-4 flex justify-between items-center transition-transform hover:scale-105 hover:bg-slate-700 duration-300">
+                                <span class="text-slate-300 w-1/3">He / She / It</span>
+                                <span class="text-white font-bold w-1/3 text-center">was</span>
+                                <span class="text-slate-400 w-1/3 text-right">foi / estava</span>
+                            </div>
+                            <div class="bg-slate-800 rounded-lg p-4 flex justify-between items-center transition-transform hover:scale-105 hover:bg-slate-700 duration-300">
+                                <span class="text-slate-300 w-1/3">We</span>
+                                <span class="text-white font-bold w-1/3 text-center">were</span>
+                                <span class="text-slate-400 w-1/3 text-right">fomos / estávamos</span>
+                            </div>
+                            <div class="bg-slate-800 rounded-lg p-4 flex justify-between items-center transition-transform hover:scale-105 hover:bg-slate-700 duration-300">
+                                <span class="text-slate-300 w-1/3">They</span>
+                                <span class="text-white font-bold w-1/3 text-center">were</span>
+                                <span class="text-slate-400 w-1/3 text-right">foram / estavam</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700">
+                <p class="font-bold mb-2">Let's try one together!</p>
+                <p class="text-slate-300 mb-4">
+                    Complete the question with the correct form of the 'to be' verb.
+                    <br>
+                    <span class="text-sm italic text-slate-400">
+                        (Example: I am a student -> Am I a student?)
+                    </span>
+                </p>
+                <div class="flex items-center space-x-2">
+                    <input id="toBeInput" type="text" placeholder="Your word here..." class="flex-grow p-3 bg-slate-800 border-2 border-slate-700 rounded-lg focus:outline-none focus:border-[#00CCCC] text-white">
+                    <span class="text-lg text-[#00CCCC] font-bold">you a doctor?</span>
+                </div>
+                <div id="toBeFeedback" class="mt-4"></div>
+                <button onclick="checkAnswer('toBe')" class="btn btn-magenta mt-4">Check My Answer</button>
+            </div>
+            <div id="toBeExamples" class="mt-6 hidden">
+                <p class="text-lg font-bold text-slate-200">Great job! Now look at these examples:</p>
+                <ul class="list-disc pl-5 space-y-2 mt-4 text-slate-300">
+                    <li><span class="text-[#00CCCC]">Am</span> I late? (Eu estou atrasado?)</li>
+                    <li><span class="text-[#00CCCC]">Are</span> you happy? (Você está feliz?)</li>
+                    <li><span class="text-[#00CCCC]">Is</span> he from Brazil? (Ele é do Brasil?)</li>
+                    <li><span class="text-[#00CCCC]">Are</span> we ready? (Nós estamos prontos?)</li>
+                    <li><span class="text-[#00CCCC]">Are</span> they here? (Eles estão aqui?)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SECTION 2: DO, DOES, DID -->
+        <section class="lesson-card space-y-6">
+            <h2 class="text-3xl font-bold"><span class="gradient-text-2">Step 2: The Helpers (Do, Does, Did)</span></h2>
+            <p class="text-slate-300">
+                For most other verbs (like 'eat', 'speak', 'work'), we need a little helper word at the front. These helpers are <span class="text-[#00CCCC] font-bold">DO</span>, <span class="text-[#00CCCC] font-bold">DOES</span>, and <span class="text-[#00CCCC] font-bold">DID</span>.
+            </p>
+            <p class="text-slate-300">
+                Para a maioria dos outros verbos (como 'comer', 'falar', 'trabalhar'), precisamos de uma palavra auxiliar no início. Essas palavras são o <span class="text-[#00CCCC] font-bold">DO</span>, <span class="text-[#00CCCC] font-bold">DOES</span> e o <span class="text-[#00CCCC] font-bold">DID</span>. Pense neles como seus assistentes para fazer perguntas!
+            </p>
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700">
+                <p class="font-bold text-lg text-[#FFFFCC]">
+                    The Simple Rule: Do / Does / Did + Subject + Main Verb (Base Form)?
+                </p>
+                <div class="mt-4">
+                    <h4 class="text-lg font-bold text-[#FF3300]">Step-by-Step Instructions</h4>
+                    <ol class="list-decimal list-inside pl-4 mt-2 space-y-2 text-slate-300">
+                        <li>Choose the correct helper verb: **Do** for I/you/we/they; **Does** for he/she/it; **Did** for all subjects in the past.</li>
+                        <li>Add the **subject**.</li>
+                        <li>Add the **main verb** in its base form (no -s, -ed, or -ing).</li>
+                        <li>Finish the sentence with the rest of the words and a question mark.</li>
+                    </ol>
+                    <p class="font-bold text-lg text-[#FF3300] mt-4">Don't!</p>
+                    <ul class="list-disc list-inside pl-4 mt-2 text-slate-300">
+                        <li>**Don't** add an '-s' to the verb when using 'does'. The '-s' is already in the word 'does'. (Example: He **eats** -> **Does** he **eat**?)</li>
+                        <li>**Don't** use the past tense form of the verb when using 'did'. The past tense is already in 'did'. (Example: You **ate** -> **Did** you **eat**?)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-2 my-6">
+                <button onclick="toggleExplanation('ptExplanation2', this)" class="btn btn-orange flex items-center">
+                    Ver explicação em português
+                    <svg class="ml-2 w-4 h-4 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+            
+            <div id="ptExplanation2" class="hidden transition-all duration-300 lesson-card mt-0 border-t-0 rounded-t-none">
+                <h4 class="text-lg font-bold text-[#00CCCC] mb-4">Explicação Detalhada em Português: Verbos Auxiliares 'Do', 'Does', 'Did'</h4>
+                <p class="text-slate-300 mb-4">
+                    Para fazer perguntas com a maioria dos verbos em inglês (os que não usam 'to be'), precisamos de ajudantes. Eles são como o sinalizador que indica que é uma pergunta.
+                </p>
+                <ul class="list-disc pl-5 space-y-2 text-slate-300 mb-4">
+                    <li><span class="text-[#00CCCC] font-bold">DO</span> é usado no presente para "I, you, we, they".</li>
+                    <li><span class="text-[#00CCCC] font-bold">DOES</span> é usado no presente para "he, she, it". Note que a forma do verbo principal volta para a base, sem o 's' do presente! Exemplo: "He works" (Ele trabalha) se torna "Does he work?" (Ele trabalha?).</li>
+                    <li><span class="text-[#00CCCC] font-bold">DID</span> é usado para todos os sujeitos no passado. O verbo principal também volta à sua forma base. Exemplo: "You studied" (Você estudou) se torna "Did you study?" (Você estudou?).</li>
+                </ul>
+                <p class="font-bold text-[#FF3300] not-italic mt-4">Lembre-se: 'Do', 'Does' e 'Did' são seus assistentes. Eles fazem o trabalho pesado de indicar o tempo e a pessoa, então o verbo principal pode relaxar e ficar na sua forma original!</p>
+            </div>
+
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700">
+                <p class="font-bold text-lg text-[#FFFFCC]">
+                    Let's think of them as your question-making assistants!
+                </p>
+                <div class="p-4 bg-slate-800 rounded-lg mt-4 text-sm text-slate-300">
+                    <p class="font-bold text-[#00CCCC]">DO</p>
+                    <p>Use for <span class="font-bold">I, you, we, they</span> (Present Simple)</p>
+                    <p class="font-bold text-[#00CCCC] mt-2">DOES</p>
+                    <p>Use for <span class="font-bold">he, she, it</span> (Present Simple). See the 'S' in 'does'? It's a reminder of the 'S' we add to the verb in a normal sentence! (He eats -> <span class="text-[#FF3300]">Does he eat?</span>)</p>
+                    <p class="font-bold text-[#00CCCC] mt-2">DID</p>
+                    <p>Use for <span class="font-bold">all subjects</span> in the past. After 'did', the main verb always goes back to its original form! (You ate -> <span class="text-[#FF3300]">Did you eat?</span>)</p>
+                </div>
+            </div>
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700">
+                <p class="font-bold mb-2">Your turn to try!</p>
+                <div class="flex items-center space-x-2">
+                    <input id="doDoesInput" type="text" placeholder="Your word here..." class="flex-grow p-3 bg-slate-800 border-2 border-slate-700 rounded-lg focus:outline-none focus:border-[#FF3300] text-white">
+                    <span class="text-lg text-[#FF3300] font-bold">she speak Portuguese?</span>
+                </div>
+                <div id="doDoesFeedback" class="mt-4"></div>
+                <button onclick="checkAnswer('doDoes')" class="btn btn-orange mt-4">Check My Answer</button>
+            </div>
+            <div id="doDoesExamples" class="mt-6 hidden">
+                <p class="text-lg font-bold text-slate-200">Awesome! More examples:</p>
+                <ul class="list-disc pl-5 space-y-2 mt-4 text-slate-300">
+                    <li><span class="text-[#FF3300]">Do</span> you like pizza? (Você gosta de pizza?)</li>
+                    <li><span class="text-[#FF3300]">Does</span> he play football? (Ele joga futebol?)</li>
+                    <li><span class="text-[#FF3300]">Did</span> they travel last year? (Eles viajaram ano passado?)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SECTION 3: MODAL VERBS -->
+        <section class="lesson-card space-y-6">
+            <h2 class="text-3xl font-bold"><span class="gradient-text-3">Step 3: The Modal Verbs</span></h2>
+            <p class="text-slate-300">
+                Modal verbs are very special words that help other verbs. They show things like ability, possibility, or permission. They are super easy to use for questions!
+            </p>
+            <p class="text-slate-300">
+                Os verbos modais são palavras especiais que ajudam outros verbos. Eles mostram coisas como **habilidade** (poder), **possibilidade** (poderia) ou **permissão** (pode). Para fazer perguntas com eles, a regra é simples: é só colocar o verbo modal no início da frase!
+            </p>
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700">
+                <p class="font-bold text-lg text-[#FFFFCC] mb-2">
+                    Your Modal Verb Checklist to Remember!
+                </p>
+                <div class="p-4 bg-slate-800 rounded-lg mt-4 text-sm text-slate-300 flex flex-wrap gap-4">
+                    <p class="text-[#FF00FF]">CAN (poder)</p>
+                    <p class="text-[#FF00FF]">COULD (poderia)</p>
+                    <p class="text-[#FF00FF]">MAY (poder)</p>
+                    <p class="text-[#FF00FF]">MIGHT (poderia)</p>
+                    <p class="text-[#FF00FF]">WILL (irá)</p>
+                    <p class="text-[#FF00FF]">WOULD (iria)</p>
+                    <p class="text-[#FF00FF]">SHOULD (deveria)</p>
+                    <p class="text-[#FF00FF]">MUST (deve)</p>
+                </div>
+                <p class="font-bold text-lg mt-4 text-[#FF00FF]">
+                    The Simple Rule: Modal Verb + Subject + Main Verb (Base Form)?
+                </p>
+                <div class="mt-4">
+                    <h4 class="text-lg font-bold text-[#FF00FF]">Step-by-Step Instructions</h4>
+                    <ol class="list-decimal list-inside pl-4 mt-2 space-y-2 text-slate-300">
+                        <li>Start with the **modal verb**.</li>
+                        <li>Add the **subject**.</li>
+                        <li>Add the **main verb** in its base form.</li>
+                        <li>Finish the sentence with the rest of the words and a question mark.</li>
+                    </ol>
+                    <p class="font-bold text-lg text-[#FF3300] mt-4">Don't!</p>
+                    <ul class="list-disc list-inside pl-4 mt-2 text-slate-300">
+                        <li>**Don't** add 'do' or 'does' with a modal verb. They do the same job!</li>
+                        <li>**Don't** change the main verb. It is always in its base form after a modal verb. (Example: He **can** **speaks** -> He **can** **speak**).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-2 my-6">
+                <button onclick="toggleExplanation('ptExplanation3', this)" class="btn btn-magenta flex items-center">
+                    Ver explicação em português
+                    <svg class="ml-2 w-4 h-4 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+            
+            <div id="ptExplanation3" class="hidden transition-all duration-300 lesson-card mt-0 border-t-0 rounded-t-none">
+                <h4 class="text-lg font-bold text-[#00CCCC] mb-4">Explicação Detalhada em Português: Verbos Modais</h4>
+                <p class="text-slate-300 mb-4">
+                    Verbos modais são fáceis de usar em perguntas porque eles já fazem o trabalho de "ajudantes" do 'do' e 'does'. Para fazer uma pergunta, a regra é a mesma do 'to be': coloque o verbo modal na frente do sujeito.
+                </p>
+                <p class="font-bold text-[#FFFFCC] mb-2">Exemplo:</p>
+                <p class="text-slate-300"><span class="text-[#FF00FF]">Frase Normal:</span> She <span class="font-bold">can</span> swim. (Ela pode nadar.)</p>
+                <p class="text-slate-300"><span class="text-[#FF00FF]">Fazendo a Pergunta:</span> <span class="font-bold">Can</span> she swim? (Ela pode nadar?)</p>
+                <p class="text-slate-300 mt-4">Essa regra funciona para todos os verbos modais, como 'could', 'should' e 'will'.</p>
+            </div>
+
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700">
+                <p class="font-bold mb-2">Your last challenge!</p>
+                <div class="flex items-center space-x-2">
+                    <input id="modalInput" type="text" placeholder="Your word here..." class="flex-grow p-3 bg-slate-800 border-2 border-slate-700 rounded-lg focus:outline-none focus:border-[#FF00FF] text-white">
+                    <span class="text-lg text-[#FF00FF] font-bold">I go to the bathroom?</span>
+                </div>
+                <div id="modalFeedback" class="mt-4"></div>
+                <button onclick="checkAnswer('modal')" class="btn btn-magenta mt-4">Check My Answer</button>
+            </div>
+            <div id="modalExamples" class="mt-6 hidden">
+                <p class="text-lg font-bold text-slate-200">You did it! Check out the examples:</p>
+                <ul class="list-disc pl-5 space-y-2 mt-4 text-slate-300">
+                    <li><span class="text-[#FF00FF]">Can</span> I help you? (Eu posso te ajudar?)</li>
+                    <li><span class="text-[#FF00FF]">Should</span> we study? (Nós deveríamos estudar?)</li>
+                    <li><span class="text-[#FF00FF]">Will</span> she arrive soon? (Ela chegará em breve?)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SECTION 4: WH- QUESTIONS -->
+        <section class="lesson-card space-y-6">
+            <h2 class="text-3xl font-bold"><span class="gradient-text-1">Step 4: The 'WH-' Questions</span></h2>
+            <p class="text-slate-300">
+                The 'WH-' questions are used to get specific information. They include words like <span class="font-bold text-[#FFFFCC]">what</span> (o quê), <span class="font-bold text-[#FFFFCC]">where</span> (onde), <span class="font-bold text-[#FFFFCC]">when</span> (quando), <span class="font-bold text-[#FFFFCC]">who</span> (quem), <span class="font-bold text-[#FFFFCC]">why</span> (porquê), and <span class="font-bold text-[#FFFFCC]">how</span> (como).
+            </p>
+            <p class="text-slate-300">
+                As perguntas com 'wh-' são usadas para obter informações específicas. Elas incluem palavras como "what" (o quê), "where" (onde), "when" (quando), "who" (quem), "why" (porquê) e "how" (como).
+            </p>
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700">
+                <p class="font-bold text-lg text-[#FFFFCC]">
+                    The Simple Rule: WH- word + Auxiliary Verb + Subject + Main Verb?
+                </p>
+                <div class="mt-4">
+                    <h4 class="text-lg font-bold text-[#00CCCC]">Step-by-Step Instructions</h4>
+                    <ol class="list-decimal list-inside pl-4 mt-2 space-y-2 text-slate-300">
+                        <li>Start with a **WH- word**.</li>
+                        <li>Add an **auxiliary verb** (do, does, did) or **'to be'** (am, is, are).</li>
+                        <li>Add the **subject**.</li>
+                        <li>Add the **main verb** in its base form.</li>
+                    </ol>
+                    <p class="font-bold text-lg text-[#FF3300] mt-4">Don't!</p>
+                    <ul class="list-disc list-inside pl-4 mt-2 text-slate-300">
+                        <li>**Don't** use the wrong auxiliary verb. The most common mistake is not using the correct auxiliary verb or 'to be' verb after the 'wh-' word.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-2 my-6">
+                <button onclick="toggleExplanation('whExplanation', this)" class="btn btn-magenta flex items-center">
+                    Ver exemplos em português
+                    <svg class="ml-2 w-4 h-4 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+            
+            <div id="whExplanation" class="hidden transition-all duration-300 lesson-card mt-0 border-t-0 rounded-t-none">
+                <h4 class="text-lg font-bold text-[#00CCCC] mb-4">Exemplos Detalhados em Português: Perguntas com 'WH-'</h4>
+                <p class="text-slate-300 mb-4">
+                    Aqui estão alguns exemplos para te ajudar a entender a estrutura e a tradução.
+                </p>
+                <ul class="list-disc pl-5 space-y-2 text-slate-300">
+                    <li><span class="font-bold text-[#FFFFCC]">What</span> do you want to eat? (O que você quer comer?)</li>
+                    <li><span class="font-bold text-[#FFFFCC]">Where</span> do you live? (Onde você mora?)</li>
+                    <li><span class="font-bold text-[#FFFFCC]">When</span> did he arrive? (Quando ele chegou?)</li>
+                    <li><span class="font-bold text-[#FFFFCC]">Who</span> are you? (Quem é você?)</li>
+                    <li><span class="font-bold text-[#FFFFCC]">Why</span> did she leave? (Por que ela saiu?)</li>
+                    <li><span class="font-bold text-[#FFFFCC]">How</span> do you feel? (Como você se sente?)</li>
+                </ul>
+            </div>
+            
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700">
+                <p class="font-bold mb-2">Let's try one more!</p>
+                <div class="flex items-center space-x-2">
+                    <input id="whInput" type="text" placeholder="Your word here..." class="flex-grow p-3 bg-slate-800 border-2 border-slate-700 rounded-lg focus:outline-none focus:border-[#FF00FF] text-white">
+                    <span class="text-lg text-[#FF00FF] font-bold">do you do?</span>
+                </div>
+                <div id="whFeedback" class="mt-4"></div>
+                <button onclick="checkAnswer('wh')" class="btn btn-magenta mt-4">Check My Answer</button>
+            </div>
+            <div id="whExamples" class="mt-6 hidden">
+                <p class="text-lg font-bold text-slate-200">Great job! The most common answer for this is **"What do you do?"** which refers to your profession.</p>
+            </div>
+        </section>
+
+        <!-- SECTION 5: HOW MUCH vs HOW MANY -->
+        <section class="lesson-card space-y-6">
+            <h2 class="text-3xl font-bold"><span class="gradient-text-3">Step 5: How Much vs. How Many</span></h2>
+            <p class="text-slate-300">
+                This is a very important step! In English, we ask about quantity differently depending on if the thing can be counted or not.
+            </p>
+            <p class="text-slate-300">
+                Este é um passo muito importante! Em inglês, fazemos perguntas sobre quantidade de maneira diferente dependendo se a coisa pode ser contada ou não.
+            </p>
+            
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700 space-y-4">
+                <h3 class="text-xl font-bold text-[#FFFFCC]">How many... (Quantos/Quantas)</h3>
+                <p class="text-slate-300">
+                    Use **<span class="font-bold text-[#FF00FF]">How many</span>** for things you can count, like **books**, **chairs**, or **cars**. The noun is always plural.
+                </p>
+                <div class="bg-slate-800 p-4 rounded-lg space-y-2 text-slate-300">
+                    <p class="italic">**Structure:** <span class="font-bold">How many + plural noun + auxiliary verb + subject + main verb?</span></p>
+                    <p><span class="font-bold text-[#FF00FF]">How many</span> books did you buy?</p>
+                    <p><span class="font-bold text-[#FF00FF]">How many</span> students are in the class?</p>
+                </div>
+            </div>
+            
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700 space-y-4">
+                <h3 class="text-xl font-bold text-[#FFFFCC]">How much... (Quanto/Quanta)</h3>
+                <p class="text-slate-300">
+                    Use **<span class="font-bold text-[#FF00FF]">How much</span>** for things you cannot count, like **water**, **money**, or **information**. The noun is always singular.
+                </p>
+                <div class="bg-slate-800 p-4 rounded-lg space-y-2 text-slate-300">
+                    <p class="italic">**Structure:** <span class="font-bold">How much + uncountable noun + auxiliary verb + subject + main verb?</span></p>
+                    <p><span class="font-bold text-[#FF00FF]">How much</span> money do you have?</p>
+                    <p><span class="font-bold text-[#FF00FF]">How much</span> milk is in the fridge?</p>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-2 my-6">
+                <button onclick="toggleExplanation('howMuchManyExplanation', this)" class="btn btn-magenta flex items-center">
+                    Ver explicação em português
+                    <svg class="ml-2 w-4 h-4 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+            
+            <div id="howMuchManyExplanation" class="hidden transition-all duration-300 lesson-card mt-0 border-t-0 rounded-t-none">
+                <h4 class="text-lg font-bold text-[#00CCCC] mb-4">Explicação Detalhada em Português: How Much vs. How Many</h4>
+                <p class="text-slate-300 mb-4">
+                    A diferença é simples: **"How many"** é para coisas que podemos contar com números (um, dois, três...). Já **"How much"** é para coisas que não podemos contar individualmente (líquidos, conceitos, etc.). Pense em "muito dinheiro" vs "muitas moedas". Você pode contar as moedas, mas não o dinheiro em si como uma unidade.
+                </p>
+                <p class="text-slate-300">
+                    * <span class="font-bold text-[#FF00FF]">How many</span> coins do you have? (Quantas moedas você tem?)
+                    * <span class="font-bold text-[#FF00FF]">How much</span> money do you have? (Quanto dinheiro você tem?)
+                </p>
+            </div>
+            
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700">
+                <p class="font-bold mb-2">Let's practice!</p>
+                <p class="text-slate-300 mb-4">
+                    Fill in the blank with either "How much" or "How many".
+                </p>
+                <div class="flex items-center space-x-2">
+                    <input id="howMuchManyInput" type="text" placeholder="Your answer here..." class="flex-grow p-3 bg-slate-800 border-2 border-slate-700 rounded-lg focus:outline-none focus:border-[#FF00FF] text-white">
+                    <span class="text-lg text-[#FF00FF] font-bold">sugar do you want in your coffee?</span>
+                </div>
+                <div id="howMuchManyFeedback" class="mt-4"></div>
+                <button onclick="checkAnswer('howMuchMany')" class="btn btn-magenta mt-4">Check My Answer</button>
+            </div>
+            <div id="howMuchManyExamples" class="mt-6 hidden">
+                <p class="text-lg font-bold text-slate-200">Excellent! Since "sugar" is uncountable, the correct phrase is **"How much"**.</p>
+            </div>
+        </section>
+
+        <!-- NEW SECTION: PAST TENSE -->
+        <section class="lesson-card space-y-6">
+            <h2 class="text-3xl font-bold"><span class="gradient-text-2">Step 6: Simple Past vs. Present Perfect</span></h2>
+            <p class="text-slate-300">
+                This is a very tricky point for Portuguese speakers! In English, we use different tenses for questions about the past, especially when we talk about a specific, finished time.
+            </p>
+            <p class="text-slate-300">
+                Este é um ponto bem complicado para nós brasileiros! Em inglês, usamos tempos verbais diferentes para perguntas sobre o passado, especialmente quando falamos de um tempo específico e já terminado.
+            </p>
+
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700 space-y-4">
+                <h3 class="text-xl font-bold text-[#FFFFCC]">Simple Past (Com 'did')</h3>
+                <p class="text-slate-300">
+                    Use o **Simple Past** (com o auxiliar **did**) para perguntas sobre uma ação que aconteceu em um tempo específico e que já acabou.
+                </p>
+                <div class="bg-slate-800 p-4 rounded-lg space-y-2 text-slate-300">
+                    <p class="italic">**Estrutura:** <span class="font-bold">Did + Subject + Main Verb (forma base)?</span></p>
+                    <p>
+                        <span class="font-bold text-[#FF3300]">Did</span> you <span class="font-bold">have</span> lunch today? (Você almoçou hoje?)
+                    </p>
+                    <p class="text-sm text-slate-400">
+                        Nesse caso, o 'did' já indica que a pergunta está no passado, então o verbo principal (have) volta para a sua forma base.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700 space-y-4">
+                <h3 class="text-xl font-bold text-[#FFFFCC]">Present Perfect (Com 'have'/'has')</h3>
+                <p class="text-slate-300">
+                    Use o **Present Perfect** (com **have** ou **has**) para perguntas sobre uma ação no passado que não tem um tempo específico. A ação está de alguma forma conectada com o presente.
+                </p>
+                <div class="bg-slate-800 p-4 rounded-lg space-y-2 text-slate-300">
+                    <p class="italic">**Estrutura:** <span class="font-bold">Have / Has + Subject + Past Participle?</span></p>
+                    <p>
+                        <span class="font-bold text-[#FF3300]">Have</span> you <span class="font-bold">ever eaten</span> sushi? (Você já comeu sushi?)
+                    </p>
+                    <p class="text-sm text-slate-400">
+                        Nessa pergunta, não estamos falando de um tempo específico, mas sim de uma experiência de vida. Por isso usamos o Present Perfect.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-2 my-6">
+                <button onclick="toggleExplanation('pastTenseExplanation', this)" class="btn btn-orange flex items-center">
+                    Ver mais exemplos
+                    <svg class="ml-2 w-4 h-4 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+            
+            <div id="pastTenseExplanation" class="hidden transition-all duration-300 lesson-card mt-0 border-t-0 rounded-t-none">
+                <h4 class="text-lg font-bold text-[#00CCCC] mb-4">Mais Exemplos e a Sua Dúvida</h4>
+                <p class="text-slate-300 mb-4">
+                    A sua pergunta "Você almoçou hoje?" em inglês seria **"Did you have lunch today?"** porque "today" é um tempo específico (o dia de hoje já está em andamento ou terminou). A tradução literal "Have you had lunch today?" é possível, mas é menos comum. O mais natural para nativos é usar o Simple Past (`did`) para algo que aconteceu em um tempo definido.
+                </p>
+                <p class="text-slate-300">
+                    * <span class="font-bold text-[#FF3300]">Did</span> you see the movie <span class="font-bold">last night</span>? (Você viu o filme ontem à noite?) - **Simple Past**, pois "last night" é um tempo específico.
+                    * <span class="font-bold text-[#FF3300]">Have</span> you seen that movie <span class="font-bold">yet</span>? (Você já viu esse filme?) - **Present Perfect**, pois "yet" (já) indica que não há um tempo específico.
+                </p>
+            </div>
+            
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700">
+                <p class="font-bold mb-2">Hora de praticar!</p>
+                <p class="text-slate-300 mb-4">
+                    Preencha a lacuna com a palavra auxiliar correta: **"Did"** ou **"Have"**.
+                </p>
+                <div class="flex items-center space-x-2">
+                    <input id="pastTenseInput" type="text" placeholder="Sua resposta aqui..." class="flex-grow p-3 bg-slate-800 border-2 border-slate-700 rounded-lg focus:outline-none focus:border-[#FF3300] text-white">
+                    <span class="text-lg text-[#FF3300] font-bold">you finished your homework yet?</span>
+                </div>
+                <div id="pastTenseFeedback" class="mt-4"></div>
+                <button onclick="checkAnswer('pastTense')" class="btn btn-orange mt-4">Checar Minha Resposta</button>
+            </div>
+            <div id="pastTenseExamples" class="mt-6 hidden">
+                <p class="text-lg font-bold text-slate-200">Perfeito! A palavra **"yet"** (ainda) indica que a pergunta se refere a uma ação não concluída, conectada com o presente, então o **Present Perfect** é o tempo verbal correto.</p>
+            </div>
+        </section>
+
+        <!-- OLD SECTION: Common Mistakes for Brazilians -->
+        <section class="lesson-card space-y-6">
+            <h2 class="text-3xl font-bold"><span class="gradient-text-2">Erros Comuns de Brasileiros em Perguntas</span></h2>
+            <p class="text-slate-300">
+                Fique atento à tradução literal! Aqui estão alguns erros frequentes ao fazer perguntas em inglês.
+            </p>
+
+            <!-- Mistake 1: Omitting the auxiliary verb (Do/Did) -->
+            <div class="bg-slate-900 bg-opacity-50 p-6 rounded-lg border border-slate-700 space-y-4">
+                <div class="bg-red-900 bg-opacity-30 p-4 rounded-lg border border-red-800">
+                    <p class="font-bold text-red-400">❌ Errado: You work here?</p>
+                    <p class="font-bold text-green-400">✅ Certo: <span class="font-bold">Do</span> you work here?</p>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <button onclick="toggleExplanation('mistake1Explanation', this)" class="btn btn-orange flex items-center">
+                        Por que está errado?
+                        <svg class="ml-2 w-4 h-4 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div id="mistake1Explanation" class="hidden transition-all duration-300 lesson-card mt-0 border-t-0 rounded-t-none">
+                    <p class="text-slate-300">
+                        Em português, basta a entonação ou a pontuação para indicar uma pergunta. Em inglês, a maioria das perguntas precisa de um verbo auxiliar (como **'do'**, **'does'** ou **'did'**) no início da frase para indicar que é uma pergunta.
+                    </p>
+                    <div class="bg-blue-900 bg-opacity-30 p-4 rounded-lg mt-4 border border-blue-800">
+                        <p class="font-bold text-blue-400">Nota importante:</p>
+                        <p class="text-slate-300 mt-2">
+                            Embora a expressão informal "You work here?" seja utilizada por muitos nativos em contextos casuais e seja mais amigável, ela é **gramaticalmente incorreta**. A forma correta é "Do you work here?". Dependendo da situação, o uso da versão informal pode indicar falta de domínio da gramática inglesa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mistake 2: Mixing Present Simple and Present Continuous questions -->
+            <div class="bg-slate-900 bg-opacity-50 p-6 rounded-lg border border-slate-700 space-y-4">
+                <div class="bg-red-900 bg-opacity-30 p-4 rounded-lg border border-red-800">
+                    <p class="font-bold text-red-400">❌ Errado: What <span class="font-bold">do</span> you do?</p>
+                    <p class="font-bold text-green-400">✅ Certo: What <span class="font-bold">are</span> you <span class="font-bold">doing</span>?</p>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <button onclick="toggleExplanation('mistake2Explanation', this)" class="btn btn-orange flex items-center">
+                        Por que está errado?
+                        <svg class="ml-2 w-4 h-4 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div id="mistake2Explanation" class="hidden transition-all duration-300 lesson-card mt-0 border-t-0 rounded-t-none">
+                    <p class="text-slate-300">
+                        O português usa "O que você faz?" para ambas as situações. Em inglês, a pergunta **'What do you do?'** se refere à sua profissão ou algo que você faz habitualmente. Já **'What are you doing?'** se refere a uma ação que está acontecendo **agora**.
+                    </p>
+                    <div class="bg-blue-900 bg-opacity-30 p-4 rounded-lg mt-4 border border-blue-800">
+                        <p class="font-bold text-blue-400">Nota importante:</p>
+                        <p class="text-slate-300 mt-2">
+                            A frase **"What do you do?"** é gramaticalmente correta e é usada para perguntar sobre a **profissão** de alguém, como em "O que você faz da vida?".
+                        </p>
+                        <p class="text-slate-300 mt-2">
+                            A frase **"What are you doing?"** é a pergunta correta para saber o que a pessoa está fazendo **neste momento**.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mistake 3: Wrong placement of question word (WH-words) -->
+            <div class="bg-slate-900 bg-opacity-50 p-6 rounded-lg border border-slate-700 space-y-4">
+                <div class="bg-red-900 bg-opacity-30 p-4 rounded-lg border border-red-800">
+                    <p class="font-bold text-red-400">❌ Errado: You study <span class="font-bold">where</span>?</p>
+                    <p class="font-bold text-green-400">✅ Certo: <span class="font-bold">Where</span> do you study?</p>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <button onclick="toggleExplanation('mistake3Explanation', this)" class="btn btn-orange flex items-center">
+                        Por que está errado?
+                        <svg class="ml-2 w-4 h-4 transition-transform duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div id="mistake3Explanation" class="hidden transition-all duration-300 lesson-card mt-0 border-t-0 rounded-t-none">
+                    <p class="text-slate-300">
+                        No português, é comum colocar a palavra de pergunta no final da frase, como na pergunta informal "Você estuda onde?". Em inglês, as palavras de pergunta (What, Where, Who, When, Why) **sempre** vão no início da frase, seguidas pelo verbo auxiliar.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEW SECTION: DO'S AND DON'TS TABLE -->
+        <section class="lesson-card space-y-8">
+            <h2 class="text-3xl font-bold"><span class="gradient-text-1">Resumo Rápido: Do's and Don'ts para Perguntas</span></h2>
+            <p class="text-slate-300">
+                Use esta tabela como um guia rápido para garantir que suas perguntas em inglês estejam sempre corretas!
+            </p>
+            <div class="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8">
+                <!-- DO'S Column -->
+                <div class="flex-1 bg-green-900 bg-opacity-30 p-6 rounded-xl border border-green-800">
+                    <h3 class="text-2xl font-bold mb-4 text-green-400">✅ Do's (O que fazer)</h3>
+                    <ul class="list-disc pl-5 space-y-4 text-slate-300">
+                        <li>Sempre use um verbo auxiliar (`do`, `does`, `did`) para a maioria das perguntas no presente e passado, exceto com o verbo `to be` e verbos modais.</li>
+                        <li>Comece com o verbo `to be` (`am`, `is`, `are`) ou um verbo modal (`can`, `will`, `should`) em perguntas.</li>
+                        <li>Use a forma base do verbo principal (sem `-s`, `-ed`, etc.) após `do`, `does`, `did` ou verbos modais.</li>
+                        <li>Coloque as palavras `WH-` (`What`, `Where`, `When`, etc.) no início da frase.</li>
+                        <li>Use `how many` para coisas contáveis e `how much` para coisas incontáveis.</li>
+                    </ul>
+                </div>
+                <!-- DON'TS Column -->
+                <div class="flex-1 bg-red-900 bg-opacity-30 p-6 rounded-xl border border-red-800">
+                    <h3 class="text-2xl font-bold mb-4 text-red-400">❌ Don'ts (O que não fazer)</h3>
+                    <ul class="list-disc pl-5 space-y-4 text-slate-300">
+                        <li>**Não** use `do` ou `does` com o verbo `to be`.</li>
+                        <li>**Não** adicione um `-s` ao verbo principal quando usar `does`.</li>
+                        <li>**Não** use a forma no passado do verbo principal quando usar `did`.</li>
+                        <li>**Não** use `do` ou `does` com verbos modais.</li>
+                        <li>**Não** coloque as palavras `WH-` no final da frase.</li>
+                        <li>**Não** omita o verbo auxiliar. Sua pergunta ficará incorreta.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEW EXERCISE SECTION: REORDER QUESTIONS -->
+        <section class="lesson-card space-y-8">
+            <h2 class="text-3xl font-bold"><span class="gradient-text-3">Exercício: Reorganize as Perguntas</span></h2>
+            <p class="text-slate-300">
+                Agora é sua vez! Organize as palavras para formar a pergunta correta em inglês.
+            </p>
+            
+            <div id="questions-container" class="space-y-12">
+                <!-- Questions will be dynamically generated here -->
+            </div>
+        </section>
+
+    </div>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+        import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+        import { getFirestore, doc, setDoc, onSnapshot } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+
+        // Global variables provided by the Canvas environment
+        const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
+        const firebaseConfig = JSON.parse(typeof __firebase_config !== 'undefined' ? __firebase_config : '{}');
+        const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
+
+        let db = null;
+        let auth = null;
+        let userId = null;
+        let isAuthReady = false;
+
+        // Initialize Firebase
+        if (firebaseConfig.apiKey) {
+            const app = initializeApp(firebaseConfig);
+            db = getFirestore(app);
+            auth = getAuth(app);
+        }
+
+        // Authentication State Listener
+        onAuthStateChanged(auth, async (user) => {
+            if (user) {
+                userId = user.uid;
+                isAuthReady = true;
+
+                // Start listening for real-time progress updates
+                const userDocRef = doc(db, `/artifacts/${appId}/users/${userId}/lessons/question-lesson`);
+                onSnapshot(userDocRef, (docSnap) => {
+                    if (docSnap.exists()) {
+                        const data = docSnap.data();
+                        if (data.toBeComplete) {
+                            document.getElementById('toBeExamples').classList.remove('hidden');
+                        }
+                        if (data.doDoesComplete) {
+                            document.getElementById('doDoesExamples').classList.remove('hidden');
+                        }
+                        if (data.modalComplete) {
+                            document.getElementById('modalExamples').classList.remove('hidden');
+                        }
+                        if (data.whComplete) {
+                            document.getElementById('whExamples').classList.remove('hidden');
+                        }
+                        if (data.howMuchHowManyComplete) {
+                            document.getElementById('howMuchManyExamples').classList.remove('hidden');
+                        }
+                        if (data.pastTenseComplete) {
+                            document.getElementById('pastTenseExamples').classList.remove('hidden');
+                        }
+                    }
+                });
+
+            } else {
+                // If no user, sign in anonymously to get a user ID
+                try {
+                    if (initialAuthToken) {
+                        await signInWithCustomToken(auth, initialAuthToken);
+                    } else {
+                        await signInAnonymously(auth);
+                    }
+                } catch (error) {
+                    console.error("Error during anonymous sign-in:", error);
+                }
+            }
+        });
+
+        const saveProgress = async (lessonName) => {
+            if (!isAuthReady) return;
+            try {
+                const userDocRef = doc(db, `/artifacts/${appId}/users/${userId}/lessons/question-lesson`);
+                await setDoc(userDocRef, { [lessonName]: true }, { merge: true });
+            } catch (error) {
+                console.error("Error saving progress:", error);
+            }
+        };
+
+        window.checkAnswer = function(section) {
+            const inputElement = document.getElementById(section + 'Input');
+            const feedbackElement = document.getElementById(section + 'Feedback');
+            const examplesElement = document.getElementById(section + 'Examples');
+            const answer = inputElement.value.trim().toLowerCase();
+
+            let correctAnswer;
+            let feedbackText;
+
+            if (section === 'toBe') {
+                correctAnswer = 'are';
+            } else if (section === 'doDoes') {
+                correctAnswer = 'does';
+            } else if (section === 'modal') {
+                correctAnswer = 'can';
+            } else if (section === 'wh') {
+                correctAnswer = 'what';
+            } else if (section === 'howMuchMany') {
+                correctAnswer = 'how much';
+            } else if (section === 'pastTense') {
+                correctAnswer = 'have';
+            }
+
+            if (answer === correctAnswer) {
+                feedbackText = `<p class="text-green-400 font-bold">You got it! Correct! Parabéns!</p>`;
+                examplesElement.classList.remove('hidden');
+                saveProgress(section + 'Complete');
+            } else {
+                feedbackText = `<p class="text-red-400 font-bold">Not quite. Tente novamente! The correct answer is '${correctAnswer}'.</p>`;
+            }
+
+            feedbackElement.innerHTML = feedbackText;
+        };
+        
+        // New function to toggle Portuguese explanation
+        window.toggleExplanation = function(id, button) {
+            const element = document.getElementById(id);
+            const arrow = button.querySelector('svg');
+            element.classList.toggle('hidden');
+            if (element.classList.contains('hidden')) {
+                arrow.classList.remove('rotate-90');
+            } else {
+                arrow.classList.add('rotate-90');
+            }
+        };
+
+        // --- NEW EXERCISE LOGIC ---
+        const questions = [
+            {
+                portuguese: "Você é professor?",
+                scrambled: ["a", "you", "teacher?", "Are"],
+                correct: ["Are", "you", "a", "teacher?"]
+            },
+            {
+                portuguese: "Onde você mora?",
+                scrambled: ["you", "live?", "do", "Where"],
+                correct: ["Where", "do", "you", "live?"]
+            },
+            {
+                portuguese: "Ela pode nadar?",
+                scrambled: ["swim?", "she", "Can"],
+                correct: ["Can", "she", "swim?"]
+            },
+            {
+                portuguese: "Ele fala espanhol?",
+                scrambled: ["speak", "he", "Spanish?", "Does"],
+                correct: ["Does", "he", "speak", "Spanish?"]
+            },
+            {
+                portuguese: "Quando eles chegaram?",
+                scrambled: ["they", "arrive?", "did", "When"],
+                correct: ["When", "did", "they", "arrive?"]
+            },
+            {
+                portuguese: "Por que você está chorando?",
+                scrambled: ["crying?", "are", "you", "Why"],
+                correct: ["Why", "are", "you", "crying?"]
+            },
+            {
+                portuguese: "Você tem um carro?",
+                scrambled: ["a", "you", "have", "car?", "Do"],
+                correct: ["Do", "you", "have", "a", "car?"]
+            },
+            {
+                portuguese: "Você me ajudaria?",
+                scrambled: ["me?", "you", "Would", "help"],
+                correct: ["Would", "you", "help", "me?"]
+            },
+            {
+                portuguese: "Onde você foi ontem?",
+                scrambled: ["did", "you", "go", "yesterday?", "Where"],
+                correct: ["Where", "did", "you", "go", "yesterday?"]
+            },
+            {
+                portuguese: "O que você comeu?",
+                scrambled: ["eat?", "you", "did", "What"],
+                correct: ["What", "did", "you", "eat?"]
+            },
+            {
+                portuguese: "Você pode me ligar?",
+                scrambled: ["call", "me?", "you", "Can"],
+                correct: ["Can", "you", "call", "me?"]
+            },
+            {
+                portuguese: "Ela é bonita?",
+                scrambled: ["beautiful?", "she", "Is"],
+                correct: ["Is", "she", "beautiful?"]
+            },
+            {
+                portuguese: "Eles estão jogando?",
+                scrambled: ["playing?", "they", "Are"],
+                correct: ["Are", "they", "playing?"]
+            },
+            {
+                portuguese: "Onde está o meu livro?",
+                scrambled: ["my", "is", "book?", "Where"],
+                correct: ["Where", "is", "my", "book?"]
+            },
+            {
+                portuguese: "Nós devemos ir?",
+                scrambled: ["go?", "we", "Should"],
+                correct: ["Should", "we", "go?"]
+            }
+        ];
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function createExercise(question, index) {
+            const container = document.createElement('div');
+            container.className = 'bg-slate-900 bg-opacity-50 p-6 rounded-lg border border-slate-700 space-y-4';
+
+            const portugueseText = document.createElement('p');
+            portugueseText.className = 'text-slate-300 italic';
+            portugueseText.textContent = `${index + 1}. (${question.portuguese})`;
+            container.appendChild(portugueseText);
+
+            const sentenceContainer = document.createElement('div');
+            sentenceContainer.className = 'sentence-container';
+            container.appendChild(sentenceContainer);
+
+            const wordsContainer = document.createElement('div');
+            wordsContainer.className = 'flex flex-wrap gap-2 mt-4';
+            container.appendChild(wordsContainer);
+            
+            const shuffledWords = shuffleArray([...question.scrambled]);
+            shuffledWords.forEach(word => {
+                const wordBtn = document.createElement('button');
+                wordBtn.className = 'word-button';
+                wordBtn.textContent = word;
+                wordsContainer.appendChild(wordBtn);
+
+                wordBtn.addEventListener('click', () => {
+                    sentenceContainer.appendChild(wordBtn);
+                });
+            });
+
+            const buttonContainer = document.createElement('div');
+            buttonContainer.className = 'flex space-x-2 mt-4';
+            const checkBtn = document.createElement('button');
+            checkBtn.className = 'btn btn-magenta';
+            checkBtn.textContent = 'Checar Resposta';
+            checkBtn.addEventListener('click', () => checkReorderAnswer(sentenceContainer, question.correct, feedbackText));
+            
+            const resetBtn = document.createElement('button');
+            resetBtn.className = 'btn btn-orange';
+            resetBtn.textContent = 'Reiniciar';
+            resetBtn.addEventListener('click', () => resetExercise(wordsContainer, sentenceContainer, shuffledWords, feedbackText));
+
+            const feedbackText = document.createElement('div');
+            feedbackText.className = 'mt-4 text-center';
+            
+            buttonContainer.appendChild(checkBtn);
+            buttonContainer.appendChild(resetBtn);
+            container.appendChild(buttonContainer);
+            container.appendChild(feedbackText);
+
+            return container;
+        }
+
+        function resetExercise(wordsContainer, sentenceContainer, shuffledWords, feedbackText) {
+            sentenceContainer.innerHTML = '';
+            wordsContainer.innerHTML = '';
+            shuffledWords.forEach(word => {
+                const wordBtn = document.createElement('button');
+                wordBtn.className = 'word-button';
+                wordBtn.textContent = word;
+                wordsContainer.appendChild(wordBtn);
+                wordBtn.addEventListener('click', () => {
+                    sentenceContainer.appendChild(wordBtn);
+                });
+            });
+            feedbackText.innerHTML = '';
+        }
+
+        function checkReorderAnswer(sentenceContainer, correctWords, feedbackElement) {
+            const userWords = Array.from(sentenceContainer.children).map(btn => btn.textContent);
+            const isCorrect = userWords.join(' ') === correctWords.join(' ');
+            if (isCorrect) {
+                feedbackElement.innerHTML = `<p class="text-green-400 font-bold">Correto! Parabéns!</p>`;
+                Array.from(sentenceContainer.children).forEach(btn => btn.classList.add('correct'));
+            } else {
+                feedbackElement.innerHTML = `<p class="text-red-400 font-bold">Incorreto. Tente novamente!</p>`;
+                Array.from(sentenceContainer.children).forEach(btn => btn.classList.add('incorrect'));
+                setTimeout(() => {
+                    Array.from(sentenceContainer.children).forEach(btn => btn.classList.remove('incorrect'));
+                }, 1000);
+            }
+        }
+
+        window.onload = () => {
+            const questionsContainer = document.getElementById('questions-container');
+            questions.forEach((q, index) => {
+                questionsContainer.appendChild(createExercise(q, index));
+            });
+        };
+    </script>
+</body>
+</html>
